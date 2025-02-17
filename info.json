@@ -1,0 +1,203 @@
+[
+    {
+        "name": "mov",
+        "size": "RegisterAndData",
+        "mode_support": "IRA",
+        "has_byte_variant": true
+    },
+    {
+        "name": "st",
+        "size": "RegisterAndData",
+        "mode_support": "A",
+        "has_byte_variant": true
+
+    },
+    {
+        "name": "and",
+        "size": "RegisterAndData",
+        "mode_support": "IRA",
+        "has_byte_variant": true
+    },
+    {
+        "name": "or",
+        "size": "RegisterAndData",
+        "mode_support": "IRA",
+        "has_byte_variant": true
+    },
+    {
+        "name": "xor",
+        "size": "RegisterAndData",
+        "mode_support": "IRA",
+        "has_byte_variant": true
+    },
+    {
+        "name": "psh",
+        "size": "Single",
+        "mode_support": "IR",
+        "has_byte_variant": true
+    },
+    {
+        "name": "add",
+        "size": "RegisterAndData",
+        "mode_support": "IRA",
+        "has_byte_variant": true
+    },
+    {
+        "name": "sub",
+        "size": "RegisterAndData",
+        "mode_support": "IRA",
+        "has_byte_variant": true
+    },
+    {
+        "name": "cmp",
+        "size": "RegisterAndData",
+        "mode_support": "IRA",
+        "has_byte_variant": true
+    },
+    {
+        "name": "inc",
+        "size": "Single",
+        "mode_support": "RA",
+        "has_byte_variant": true
+    },
+    {
+        "name": "dec",
+        "size": "Single",
+        "mode_support": "RA",
+        "has_byte_variant": true
+    },
+    {
+        "name": "sbl",
+        "size": "Single",
+        "mode_support": "RA",
+        "has_byte_variant": true
+    },
+    {
+        "name": "sbr",
+        "size": "Single",
+        "mode_support": "RA",
+        "has_byte_variant": true
+    },
+    {
+        "name": "rol",
+        "size": "Single",
+        "mode_support": "RA",
+        "has_byte_variant": true
+    },
+    {
+        "name": "ror",
+        "size": "Single",
+        "mode_support": "RA",
+        "has_byte_variant": true
+    },
+    {
+        "name": "clc",
+        "size": "Implied",
+        "mode_support": "RA"
+    },
+    {
+        "name": "cli",
+        "size": "Implied",
+        "mode_support": "RA"
+    },
+    {
+        "name": "clv",
+        "size": "Implied",
+        "mode_support": "RA"
+    },
+    {
+        "name": "sei",
+        "size": "Implied",
+        "mode_support": "RA"
+    },
+    {
+        "name": "jmp",
+        "size": "Single",
+        "mode_support": "A"
+    },
+    {
+        "name": "jsr",
+        "size": "Single",
+        "mode_support": "A"
+    },
+    {
+        "name": "biz",
+        "size": "Single",
+        "mode_support": "A"
+    },
+    {
+        "name": "bin",
+        "size": "Single",
+        "mode_support": "A"
+    },
+    {
+        "name": "bic",
+        "size": "Single",
+        "mode_support": "A"
+    },
+    {
+        "name": "bio",
+        "size": "Single",
+        "mode_support": "A"
+    },
+    {
+        "name": "bil",
+        "size": "Single",
+        "mode_support": "A"
+    },
+    {
+        "name": "big",
+        "size": "Single",
+        "mode_support": "A"
+    },
+    {
+        "name": "bnz",
+        "size": "Single",
+        "mode_support": "A"
+    },
+    {
+        "name": "bnn",
+        "size": "Single",
+        "mode_support": "A"
+    },
+    {
+        "name": "bnc",
+        "size": "Single",
+        "mode_support": "A"
+    },
+    {
+        "name": "bno",
+        "size": "Single",
+        "mode_support": "A"
+    },
+    {
+        "name": "bnl",
+        "size": "Single",
+        "mode_support": "A"
+    },
+    {
+        "name": "bng",
+        "size": "Single",
+        "mode_support": "A"
+    },
+    {
+        "name": "rts",
+        "size": "Implied"
+    },
+    {
+        "name": "in",
+        "size": "RegisterAndData",
+        "mode_support": "I",
+        "is_byte_variant": true
+    },
+    {
+        "name": "out",
+        "size": "RegisterAndData",
+        "mode_support": "I",
+        "is_byte_variant": true
+    },
+    {
+        "name": "hlt",
+        "size": "Implied"
+    }
+]
